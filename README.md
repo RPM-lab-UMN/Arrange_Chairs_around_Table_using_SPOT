@@ -83,6 +83,7 @@ The project explores the question:
 ---
 
 # Repository Structure
+```bash
 .
 ├── arrange_chairs_around_table.py
 ├── pose_estimation.py
@@ -97,6 +98,7 @@ The project explores the question:
 ├── chair_aruco.3mf
 ├── wall_aruco.3mf
 └── README.md
+```
 
 ---
 
