@@ -83,10 +83,7 @@ The project explores the question:
 ---
 
 # Repository Structure
-
-```bash
 .
-├── main.py
 ├── arrange_chairs_around_table.py
 ├── pose_estimation.py
 ├── spot_robot_commands.py
@@ -100,13 +97,12 @@ The project explores the question:
 ├── chair_aruco.3mf
 ├── wall_aruco.3mf
 └── README.md
-```
 
 ---
 
 # Core Modules
 
-## `main.py`
+## `arrange_chairs_around_table.py`
 Master execution pipeline.
 
 Responsibilities:
@@ -284,7 +280,7 @@ Move chairs to arbitrary positions.
 ## Step 4 — Execute System
 
 ```bash
-python main.py
+python arrange_chairs_around_table.py
 ```
 
 ---

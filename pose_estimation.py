@@ -53,7 +53,7 @@ def estimate_poses_of_aruco_tags(frame, aruco_dict_type, camera_calibration_para
             rvecs, tvecs, _ = cv2.aruco.estimatePoseSingleMarkers(corners, 0.20, matrix_coefficients, distortion_coefficients)
    
             # Store all Parameters into Dictionary
-            aruco_tag_pose['ID'] = int(ids[i])                                                                   # ID of AruCo tag
+            aruco_tag_pose['ID'] = int(ids[i].item())                                                                   # ID of AruCo tag
             aruco_tag_pose['Pose'] = utils.compute_pose_from_components(
                                                                             translation = list(tvecs[i][0]), 
                                                                             rotation = list(rvecs[i][0]), 
